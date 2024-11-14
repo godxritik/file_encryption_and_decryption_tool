@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Encrypter and Decrypter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>File <span id="encr">Encrypter</span> and <span id="decr">Decrypter</span></h1>
+
+
+   <div class="hero">
+    <section>
+        <h2>Encrypt File</h2>
+        <form id="encryptForm" enctype="multipart/form-data">
+            <input type="file" name="file" required>
+            <button type="submit"> <img src="play.png" alt=""> Encrypt</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Decrypt File</h2>
+        <form id="decryptForm" enctype="multipart/form-data">
+            <input type="file" name="file" required>
+            <button type="submit"> <img src="play.png" alt=""> Decrypt</button>
+        </form>
+    </section>
+   </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
